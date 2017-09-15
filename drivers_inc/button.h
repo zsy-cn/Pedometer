@@ -1,11 +1,12 @@
 /**
   ******************************************************************************
   * @file    button.h
-  * @brief   åŸºäºKL46çš„è®¡æ­¥å™¨è®¾è®¡-æŒ‰é”®åº”ç”¨ç¨‹åºå¤´æ–‡ä»¶
-  * @author  èµµå®ˆé˜³
+  * @brief   »ùÓÚKL46µÄ¼Æ²½Æ÷Éè¼Æ-°´¼üÓ¦ÓÃ³ÌĞòÍ·ÎÄ¼ş
+  * @author  ÕÔÊØÑô
   * @version V1.0
   * @date    2015.4.28
-  * @note    æ­¤æ–‡ä»¶ä¸ºå†…éƒ¨æ–‡ä»¶ï¼Œç”¨æˆ·æ— éœ€è°ƒç”¨å’Œä¿®æ”¹  
+  * @note    ´ËÎÄ¼şÎªÄÚ²¿ÎÄ¼ş£¬ÓÃ»§ÎŞĞèµ÷ÓÃºÍĞŞ¸Ä
+             This file is an internal file, and the user does not need to call and modify it  
   ******************************************************************************
   */
 
@@ -15,12 +16,12 @@
 #include "common.h"
 #include "gpio.h"
 
-#define key_plus    (PORTC|6)    /* â€œ+â€ä½¿ç”¨å¼•è„š          */
-#define key_mode    (PORTC|5)    /* â€œModeâ€ä½¿ç”¨å¼•è„š */
-#define key_minus   (PORTC|4)    /* â€œ-â€ä½¿ç”¨å¼•è„š          */
+#define key_plus    (PORTC|6)    /* ¡°+¡±Ê¹ÓÃÒı½Å          */
+#define key_mode    (PORTC|5)    /* ¡°Mode¡±Ê¹ÓÃÒı½Å */
+#define key_minus   (PORTC|4)    /* ¡°-¡±Ê¹ÓÃÒı½Å          */
 
 /**
-*\brief æŒ‰é”®åˆå§‹åŒ–
+*\brief °´¼ü³õÊ¼»¯
 *
 *\param[in]     none
 *\param[out]    none
@@ -34,7 +35,7 @@
 void button_init(void);
 
 /**
-*\brief æŒ‰é”®ä¸­æ–­ä½¿èƒ½
+*\brief °´¼üÖĞ¶ÏÊ¹ÄÜ
 *
 *\param[in]     none
 *\param[out]    none
